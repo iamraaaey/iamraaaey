@@ -1,9 +1,11 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E1065,40:4C1D95,70:6D28D9,100:8B5CF6&height=230&section=header&text=Raynold%20Kabai&fontSize=58&fontColor=EDE9FE&fontAlignY=34&animation=fadeIn&desc=Software%20Engineering%20Student%20%E2%80%A2%20Mobile%20App%20Developer%20%E2%80%A2%20UI%2FUX%20Designer&descSize=17&descAlignY=54" width="100%" alt="header" />
-
 <a href="https://raynoldkabai.my/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=A78BFA&center=true&vCenter=true&width=760&height=64&lines=Software+Engineering+Student;Mobile+App+Developer+(Flutter);Passionate+about+UI%2FUX+Design;Crafting+Responsive+Applications" alt="Typing SVG" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iamraaaey/iamraaaey/main/dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iamraaaey/iamraaaey/main/light.svg">
+    <img src="https://raw.githubusercontent.com/iamraaaey/iamraaaey/main/dark.svg" width="100%" alt="Raynold Kabai — Software Engineering Student · Mobile App Developer · UI/UX Designer">
+  </picture>
 </a>
 
 <br />
