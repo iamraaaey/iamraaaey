@@ -6,19 +6,19 @@
   <!-- ============ CARD / PANEL SURFACES ============ -->
   <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0" stop-color="#FFFFFF"/>
-    <stop offset="0.55" stop-color="#F6F8FC"/>
+    <stop offset="0.55" stop-color="#F6F8FA"/>
     <stop offset="1" stop-color="#FFFFFF"/>
   </linearGradient>
 
   <linearGradient id="panelBg" x1="0" y1="0" x2="0.6" y2="1">
-    <stop offset="0" stop-color="#F8FAFC"/>
-    <stop offset="1" stop-color="#EDF2F9"/>
+    <stop offset="0" stop-color="#F6F8FA"/>
+    <stop offset="1" stop-color="#EDF1F4"/>
   </linearGradient>
 
   <linearGradient id="panelEdge" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#0F172A" stop-opacity="0.14"/>
-    <stop offset="0.5" stop-color="#0F172A" stop-opacity="0.08"/>
-    <stop offset="1" stop-color="#0F172A" stop-opacity="0.04"/>
+    <stop offset="0" stop-color="#1F2328" stop-opacity="0.14"/>
+    <stop offset="0.5" stop-color="#1F2328" stop-opacity="0.08"/>
+    <stop offset="1" stop-color="#1F2328" stop-opacity="0.04"/>
   </linearGradient>
 
   <!-- top hairline highlight on panels -->
@@ -30,51 +30,51 @@
 
   <!-- ============ ACCENTS ============ -->
   <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
-    <stop offset="0" stop-color="#2563EB"/>
-    <stop offset="0.5" stop-color="#06B6D4"/>
-    <stop offset="1" stop-color="#10B981"/>
+    <stop offset="0" stop-color="#3F6212"/>
+    <stop offset="0.5" stop-color="#65A30D"/>
+    <stop offset="1" stop-color="#4D7C0F"/>
   </linearGradient>
 
   <linearGradient id="nameGrad" gradientUnits="userSpaceOnUse" x1="524" y1="150" x2="1020" y2="200">
-    <stop offset="0" stop-color="#2563EB">
-      <animate attributeName="stop-color" values="#2563EB;#06B6D4;#10B981;#2563EB" dur="12s" repeatCount="indefinite"/>
+    <stop offset="0" stop-color="#3F6212">
+      <animate attributeName="stop-color" values="#3F6212;#65A30D;#4D7C0F;#3F6212" dur="12s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="0.55" stop-color="#06B6D4">
-      <animate attributeName="stop-color" values="#06B6D4;#10B981;#2563EB;#06B6D4" dur="12s" repeatCount="indefinite"/>
+    <stop offset="0.55" stop-color="#65A30D">
+      <animate attributeName="stop-color" values="#65A30D;#4D7C0F;#3F6212;#65A30D" dur="12s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="1" stop-color="#0F172A"/>
+    <stop offset="1" stop-color="#1F2328"/>
   </linearGradient>
 
   <linearGradient id="typeGrad" gradientUnits="userSpaceOnUse" x1="524" y1="0" x2="880" y2="0" spreadMethod="reflect">
-    <stop offset="0" stop-color="#06B6D4">
-      <animate attributeName="stop-color" values="#06B6D4;#2563EB;#10B981;#06B6D4" dur="10s" repeatCount="indefinite"/>
+    <stop offset="0" stop-color="#65A30D">
+      <animate attributeName="stop-color" values="#65A30D;#3F6212;#4D7C0F;#65A30D" dur="10s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="1" stop-color="#2563EB">
-      <animate attributeName="stop-color" values="#2563EB;#10B981;#06B6D4;#2563EB" dur="10s" repeatCount="indefinite"/>
+    <stop offset="1" stop-color="#3F6212">
+      <animate attributeName="stop-color" values="#3F6212;#4D7C0F;#65A30D;#3F6212" dur="10s" repeatCount="indefinite"/>
     </stop>
   </linearGradient>
 
   <!-- ASCII animated gradient -->
   <linearGradient id="asciiGrad" gradientUnits="userSpaceOnUse" x1="120" y1="140" x2="392" y2="480" spreadMethod="reflect">
-    <stop offset="0" stop-color="#2563EB">
-      <animate attributeName="stop-color" values="#2563EB;#06B6D4;#3B82F6;#2563EB" dur="9s" repeatCount="indefinite"/>
+    <stop offset="0" stop-color="#4D7C0F">
+      <animate attributeName="stop-color" values="#4D7C0F;#65A30D;#3F6212;#4D7C0F" dur="9s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="0.45" stop-color="#06B6D4">
-      <animate attributeName="stop-color" values="#06B6D4;#3B82F6;#2563EB;#06B6D4" dur="9s" repeatCount="indefinite"/>
+    <stop offset="0.45" stop-color="#65A30D">
+      <animate attributeName="stop-color" values="#65A30D;#3F6212;#4D7C0F;#65A30D" dur="9s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="1" stop-color="#3B82F6">
-      <animate attributeName="stop-color" values="#3B82F6;#2563EB;#06B6D4;#3B82F6" dur="9s" repeatCount="indefinite"/>
+    <stop offset="1" stop-color="#3F6212">
+      <animate attributeName="stop-color" values="#3F6212;#4D7C0F;#65A30D;#3F6212" dur="9s" repeatCount="indefinite"/>
     </stop>
     <animateTransform attributeName="gradientTransform" type="translate" values="0 0; 46 -26; 0 0; -46 26; 0 0" dur="14s" repeatCount="indefinite"/>
   </linearGradient>
 
   <!-- border shimmer travelling around the card -->
   <linearGradient id="shimmer" gradientUnits="userSpaceOnUse" x1="-460" y1="0" x2="0" y2="610">
-    <stop offset="0" stop-color="#2563EB" stop-opacity="0"/>
-    <stop offset="0.42" stop-color="#2563EB" stop-opacity="0.28"/>
-    <stop offset="0.5" stop-color="#06B6D4" stop-opacity="0.55"/>
-    <stop offset="0.58" stop-color="#10B981" stop-opacity="0.28"/>
-    <stop offset="1" stop-color="#10B981" stop-opacity="0"/>
+    <stop offset="0" stop-color="#3F6212" stop-opacity="0"/>
+    <stop offset="0.42" stop-color="#3F6212" stop-opacity="0.28"/>
+    <stop offset="0.5" stop-color="#65A30D" stop-opacity="0.55"/>
+    <stop offset="0.58" stop-color="#4D7C0F" stop-opacity="0.28"/>
+    <stop offset="1" stop-color="#4D7C0F" stop-opacity="0"/>
     <animateTransform attributeName="gradientTransform" type="translate" values="0 0; 2100 0" dur="7s" repeatCount="indefinite"/>
   </linearGradient>
 
@@ -87,34 +87,34 @@
 
   <!-- scanline band -->
   <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#06B6D4" stop-opacity="0"/>
-    <stop offset="0.5" stop-color="#06B6D4" stop-opacity="0.05"/>
-    <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
+    <stop offset="0" stop-color="#65A30D" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#65A30D" stop-opacity="0.05"/>
+    <stop offset="1" stop-color="#65A30D" stop-opacity="0"/>
   </linearGradient>
 
   <linearGradient id="scanAscii" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#06B6D4" stop-opacity="0"/>
-    <stop offset="0.5" stop-color="#06B6D4" stop-opacity="0.10"/>
-    <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
+    <stop offset="0" stop-color="#65A30D" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#65A30D" stop-opacity="0.10"/>
+    <stop offset="1" stop-color="#65A30D" stop-opacity="0"/>
   </linearGradient>
 
   <!-- background glow blobs -->
   <radialGradient id="blobA" cx="0.5" cy="0.5" r="0.5">
-    <stop offset="0" stop-color="#2563EB" stop-opacity="0.11"/>
-    <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+    <stop offset="0" stop-color="#3F6212" stop-opacity="0.11"/>
+    <stop offset="1" stop-color="#3F6212" stop-opacity="0"/>
   </radialGradient>
   <radialGradient id="blobB" cx="0.5" cy="0.5" r="0.5">
-    <stop offset="0" stop-color="#06B6D4" stop-opacity="0.11"/>
-    <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
+    <stop offset="0" stop-color="#65A30D" stop-opacity="0.11"/>
+    <stop offset="1" stop-color="#65A30D" stop-opacity="0"/>
   </radialGradient>
   <radialGradient id="blobC" cx="0.5" cy="0.5" r="0.5">
-    <stop offset="0" stop-color="#10B981" stop-opacity="0.08"/>
-    <stop offset="1" stop-color="#10B981" stop-opacity="0"/>
+    <stop offset="0" stop-color="#4D7C0F" stop-opacity="0.08"/>
+    <stop offset="1" stop-color="#4D7C0F" stop-opacity="0"/>
   </radialGradient>
   <radialGradient id="asciiHalo" cx="0.5" cy="0.5" r="0.5">
-    <stop offset="0" stop-color="#06B6D4" stop-opacity="0.10"/>
-    <stop offset="0.6" stop-color="#2563EB" stop-opacity="0.05"/>
-    <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+    <stop offset="0" stop-color="#65A30D" stop-opacity="0.10"/>
+    <stop offset="0.6" stop-color="#4D7C0F" stop-opacity="0.05"/>
+    <stop offset="1" stop-color="#4D7C0F" stop-opacity="0"/>
   </radialGradient>
 
   <!-- ============ FILTERS ============ -->
@@ -129,7 +129,7 @@
   </filter>
 
   <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
-    <feDropShadow dx="0" dy="18" stdDeviation="26" flood-color="#0F172A" flood-opacity="0.12"/>
+    <feDropShadow dx="0" dy="18" stdDeviation="26" flood-color="#1F2328" flood-opacity="0.12"/>
   </filter>
 
   <!-- frosted-glass backdrop blur: the moving background glow is blurred beneath
@@ -145,7 +145,7 @@
 
   <!-- ============ PATTERNS ============ -->
   <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-    <path d="M30 0 H0 V30" fill="none" stroke="#0F172A" stroke-opacity="0.045" stroke-width="1"/>
+    <path d="M30 0 H0 V30" fill="none" stroke="#1F2328" stroke-opacity="0.045" stroke-width="1"/>
   </pattern>
 
   <!-- ============ CLIPS ============ -->
@@ -211,10 +211,10 @@
 <style>
   .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
   .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif; }
-  .txt  { fill: #0F172A; }
-  .mut  { fill: #475569; }
-  .dim  { fill: #64748B; }
-  .lbl  { fill: #64748B; letter-spacing: 1.6px; }
+  .txt  { fill: #1F2328; }
+  .mut  { fill: #57606A; }
+  .dim  { fill: #6E7681; }
+  .lbl  { fill: #6E7681; letter-spacing: 1.6px; }
   .pill { transform-box: fill-box; transform-origin: center; transition: transform .28s cubic-bezier(.2,.8,.2,1), filter .28s ease; }
   .pill:hover { transform: scale(1.09); filter: url(#glowSoft); }
   .pill:hover .pb { stroke-opacity: .85; }
@@ -250,35 +250,35 @@
 
   <!-- animated particles drifting along curved motion paths -->
   <g class="particles">
-    <circle r="1.6" fill="#06B6D4" opacity="0">
+    <circle r="1.6" fill="#65A30D" opacity="0">
       <animateMotion path="M150 590 C 190 470, 110 360, 160 250 S 130 110, 150 20" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.12;0.8;1" dur="14s" repeatCount="indefinite"/>
     </circle>
-    <circle r="1.2" fill="#2563EB" opacity="0">
+    <circle r="1.2" fill="#3F6212" opacity="0">
       <animateMotion path="M330 590 C 300 460, 370 350, 320 240 S 350 110, 330 20" dur="18s" begin="-3s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.12;0.8;1" dur="18s" begin="-3s" repeatCount="indefinite"/>
     </circle>
-    <circle r="1.8" fill="#10B981" opacity="0">
+    <circle r="1.8" fill="#4D7C0F" opacity="0">
       <animateMotion path="M560 590 C 600 470, 520 350, 570 240 S 540 100, 560 20" dur="16s" begin="-7s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.12;0.8;1" dur="16s" begin="-7s" repeatCount="indefinite"/>
     </circle>
-    <circle r="1.3" fill="#06B6D4" opacity="0">
+    <circle r="1.3" fill="#65A30D" opacity="0">
       <animateMotion path="M760 590 C 720 460, 800 360, 750 250 S 780 110, 760 20" dur="20s" begin="-11s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.12;0.8;1" dur="20s" begin="-11s" repeatCount="indefinite"/>
     </circle>
-    <circle r="1.6" fill="#2563EB" opacity="0">
+    <circle r="1.6" fill="#3F6212" opacity="0">
       <animateMotion path="M900 590 C 940 470, 860 350, 910 240 S 880 100, 900 20" dur="15s" begin="-5s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.12;0.8;1" dur="15s" begin="-5s" repeatCount="indefinite"/>
     </circle>
-    <circle r="1.2" fill="#06B6D4" opacity="0">
+    <circle r="1.2" fill="#65A30D" opacity="0">
       <animateMotion path="M1060 590 C 1020 460, 1100 350, 1050 240 S 1080 110, 1060 20" dur="19s" begin="-13s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.12;0.8;1" dur="19s" begin="-13s" repeatCount="indefinite"/>
     </circle>
-    <circle r="1.1" fill="#10B981" opacity="0">
+    <circle r="1.1" fill="#4D7C0F" opacity="0">
       <animateMotion path="M440 590 C 480 470, 400 350, 450 240 S 420 100, 440 20" dur="21s" begin="-16s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.12;0.8;1" dur="21s" begin="-16s" repeatCount="indefinite"/>
     </circle>
-    <circle r="1.5" fill="#2563EB" opacity="0">
+    <circle r="1.5" fill="#3F6212" opacity="0">
       <animateMotion path="M650 590 C 610 460, 690 350, 640 250 S 670 110, 650 20" dur="17s" begin="-9s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.12;0.8;1" dur="17s" begin="-9s" repeatCount="indefinite"/>
     </circle>
@@ -330,12 +330,12 @@
       <!-- panel label -->
       <text class="mono lbl" x="60" y="76" font-size="10.5">PORTRAIT.ASCII</text>
       <g>
-        <circle cx="440" cy="72" r="3" fill="#10B981">
+        <circle cx="440" cy="72" r="3" fill="#4D7C0F">
           <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
         </circle>
         <text class="mono lbl" x="428" y="76" font-size="10.5" text-anchor="end">LIVE</text>
       </g>
-      <rect x="60" y="90" width="392" height="1" fill="#0F172A" fill-opacity="0.08"/>
+      <rect x="60" y="90" width="392" height="1" fill="#1F2328" fill-opacity="0.08"/>
 
       <!-- ascii art, floating -->
       <g filter="url(#glowAscii)">
@@ -387,7 +387,7 @@
       </g>
 
       <!-- write-head cursor: steps down line by line as the portrait types in -->
-        <rect x="380" y="103.9" width="6" height="8.2" fill="#06B6D4" opacity="0.85">
+        <rect x="380" y="103.9" width="6" height="8.2" fill="#65A30D" opacity="0.85">
           <animate attributeName="y" calcMode="discrete" values="103.9;112.8;121.7;130.7;139.6;148.5;157.4;166.3;175.2;184.1;193;202;210.9;219.8;228.7;237.6;246.5;255.4;264.3;273.3;282.2;291.1;300;308.9;317.8;326.7;335.7;344.6;353.5;362.4;371.3;380.2;389.1;398;407;415.9;424.8;433.7;442.6;451.5;460.4;469.3;478.3;487.2;496.1;496.1" keyTimes="0;0.0022;0.0045;0.0067;0.009;0.0112;0.0135;0.0157;0.0179;0.0202;0.0224;0.0247;0.0269;0.0292;0.0314;0.0336;0.0359;0.0381;0.0404;0.0426;0.0449;0.0471;0.0493;0.0516;0.0538;0.0561;0.0583;0.0606;0.0628;0.065;0.0673;0.0695;0.0718;0.074;0.0763;0.0785;0.0807;0.083;0.0852;0.0875;0.0897;0.092;0.0942;0.0964;0.1287;1" dur="14s" repeatCount="indefinite"/>
           <animate attributeName="opacity" values="0.85;0.85;0;0" keyTimes="0;0.48;0.52;1" dur="1.1s" repeatCount="indefinite"/>
         </rect>
@@ -400,7 +400,7 @@
       <!-- caption + blinking cursor -->
       <text class="mono" x="60" y="512" font-size="13" fill="url(#accent)">&gt;</text>
       <text class="mono txt" x="78" y="512" font-size="13" letter-spacing="0.4">raynold_kabai</text>
-      <rect x="188" y="501" width="9" height="15" fill="#06B6D4">
+      <rect x="188" y="501" width="9" height="15" fill="#65A30D">
         <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.48;0.52;1" dur="1.1s" repeatCount="indefinite"/>
       </rect>
       <text class="mono dim" x="60" y="536" font-size="11" letter-spacing="0.6">status: compiling ideas into products</text>
@@ -427,12 +427,12 @@
 
     <g clip-path="url(#rightClip)">
       <!-- title bar -->
-      <rect x="492" y="36" width="652" height="44" fill="#E9EEF6" fill-opacity="0.9"/>
-      <rect x="492" y="79.5" width="652" height="1" fill="#0F172A" fill-opacity="0.08"/>
+      <rect x="492" y="36" width="652" height="44" fill="#E9EDF1" fill-opacity="0.9"/>
+      <rect x="492" y="79.5" width="652" height="1" fill="#1F2328" fill-opacity="0.08"/>
       <rect x="540" y="37" width="560" height="1" fill="url(#hairline)"/>
-      <circle cx="518" cy="58" r="5" fill="#2563EB"/>
-      <circle cx="538" cy="58" r="5" fill="#06B6D4"/>
-      <circle cx="558" cy="58" r="5" fill="#10B981"/>
+      <circle cx="518" cy="58" r="5" fill="#3F6212"/>
+      <circle cx="538" cy="58" r="5" fill="#65A30D"/>
+      <circle cx="558" cy="58" r="5" fill="#84CC16"/>
       <text class="mono dim" x="818" y="62" font-size="11.5" text-anchor="middle" letter-spacing="0.8">raynold@github — ~/profile</text>
 
       <!-- greeting -->
@@ -463,7 +463,7 @@
         <g clip-path="url(#tp2)"><text class="mono" x="524" y="226" font-size="19" fill="url(#typeGrad)" textLength="187" lengthAdjust="spacing">Flutter Developer</text></g>
         <g clip-path="url(#tp3)"><text class="mono" x="524" y="226" font-size="19" fill="url(#typeGrad)" textLength="176" lengthAdjust="spacing">UI / UX Designer</text></g>
         <g clip-path="url(#tp4)"><text class="mono" x="524" y="226" font-size="19" fill="url(#typeGrad)" textLength="242" lengthAdjust="spacing">Open Source Enthusiast</text></g>
-        <rect x="836" y="209" width="10" height="21" fill="#06B6D4">
+        <rect x="836" y="209" width="10" height="21" fill="#65A30D">
           <animate attributeName="x"
             values="528;836;836;528;528;748;748;528;528;715;715;528;528;704;704;528;528;770;770;528;528"
             keyTimes="0;0.06;0.14;0.185;0.2;0.26;0.34;0.385;0.4;0.46;0.54;0.585;0.6;0.66;0.74;0.785;0.8;0.86;0.94;0.985;1"
@@ -473,7 +473,7 @@
       </g>
 
       <!-- divider -->
-      <rect x="524" y="252" width="588" height="1" fill="#0F172A" fill-opacity="0.12">
+      <rect x="524" y="252" width="588" height="1" fill="#1F2328" fill-opacity="0.12">
         <animate attributeName="width" values="0;0;588;588" keyTimes="0;0.267;0.433;1" dur="6s" fill="freeze"/>
       </rect>
 
@@ -518,119 +518,119 @@
       <g>
         <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.517;0.617;1" dur="6s" fill="freeze"/>
         <text class="mono lbl" x="524" y="428" font-size="10.5">STACK</text>
-        <rect x="576" y="424" width="536" height="1" fill="#0F172A" fill-opacity="0.08"/>
+        <rect x="576" y="424" width="536" height="1" fill="#1F2328" fill-opacity="0.08"/>
       </g>
 
       <g>
         <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5417;0.625;1" dur="6s" fill="freeze"/>
         <animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0;0 0" keyTimes="0;0.5417;0.625;1" dur="6s" fill="freeze"/>
         <g class="pill">
-          <rect class="pb" x="524" y="440" width="74" height="30" rx="15" fill="#0F172A" fill-opacity="0.04" stroke="#2563EB" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-0s" repeatCount="indefinite"/></rect>
-          <text class="sans" x="561" y="459.5" font-size="12.5" text-anchor="middle" fill="#1E293B">Flutter</text>
+          <rect class="pb" x="524" y="440" width="74" height="30" rx="15" fill="#1F2328" fill-opacity="0.04" stroke="#3F6212" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-0s" repeatCount="indefinite"/></rect>
+          <text class="sans" x="561" y="459.5" font-size="12.5" text-anchor="middle" fill="#1F2328">Flutter</text>
         </g>
       </g>
       <g>
         <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5533;0.6367;1" dur="6s" fill="freeze"/>
         <animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0;0 0" keyTimes="0;0.5533;0.6367;1" dur="6s" fill="freeze"/>
         <g class="pill">
-          <rect class="pb" x="608" y="440" width="54" height="30" rx="15" fill="#0F172A" fill-opacity="0.04" stroke="#06B6D4" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-0.8s" repeatCount="indefinite"/></rect>
-          <text class="sans" x="635" y="459.5" font-size="12.5" text-anchor="middle" fill="#1E293B">Dart</text>
+          <rect class="pb" x="608" y="440" width="54" height="30" rx="15" fill="#1F2328" fill-opacity="0.04" stroke="#65A30D" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-0.8s" repeatCount="indefinite"/></rect>
+          <text class="sans" x="635" y="459.5" font-size="12.5" text-anchor="middle" fill="#1F2328">Dart</text>
         </g>
       </g>
       <g>
         <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.565;0.6483;1" dur="6s" fill="freeze"/>
         <animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0;0 0" keyTimes="0;0.565;0.6483;1" dur="6s" fill="freeze"/>
         <g class="pill">
-          <rect class="pb" x="672" y="440" width="54" height="30" rx="15" fill="#0F172A" fill-opacity="0.04" stroke="#10B981" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-1.6s" repeatCount="indefinite"/></rect>
-          <text class="sans" x="699" y="459.5" font-size="12.5" text-anchor="middle" fill="#1E293B">Java</text>
+          <rect class="pb" x="672" y="440" width="54" height="30" rx="15" fill="#1F2328" fill-opacity="0.04" stroke="#4D7C0F" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-1.6s" repeatCount="indefinite"/></rect>
+          <text class="sans" x="699" y="459.5" font-size="12.5" text-anchor="middle" fill="#1F2328">Java</text>
         </g>
       </g>
       <g>
         <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5767;0.66;1" dur="6s" fill="freeze"/>
         <animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0;0 0" keyTimes="0;0.5767;0.66;1" dur="6s" fill="freeze"/>
         <g class="pill">
-          <rect class="pb" x="736" y="440" width="67" height="30" rx="15" fill="#0F172A" fill-opacity="0.04" stroke="#2563EB" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-2.4s" repeatCount="indefinite"/></rect>
-          <text class="sans" x="769.5" y="459.5" font-size="12.5" text-anchor="middle" fill="#1E293B">Python</text>
+          <rect class="pb" x="736" y="440" width="67" height="30" rx="15" fill="#1F2328" fill-opacity="0.04" stroke="#3F6212" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-2.4s" repeatCount="indefinite"/></rect>
+          <text class="sans" x="769.5" y="459.5" font-size="12.5" text-anchor="middle" fill="#1F2328">Python</text>
         </g>
       </g>
       <g>
         <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5883;0.6717;1" dur="6s" fill="freeze"/>
         <animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0;0 0" keyTimes="0;0.5883;0.6717;1" dur="6s" fill="freeze"/>
         <g class="pill">
-          <rect class="pb" x="813" y="440" width="95" height="30" rx="15" fill="#0F172A" fill-opacity="0.04" stroke="#06B6D4" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-3.2s" repeatCount="indefinite"/></rect>
-          <text class="sans" x="860.5" y="459.5" font-size="12.5" text-anchor="middle" fill="#1E293B">JavaScript</text>
+          <rect class="pb" x="813" y="440" width="95" height="30" rx="15" fill="#1F2328" fill-opacity="0.04" stroke="#65A30D" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-3.2s" repeatCount="indefinite"/></rect>
+          <text class="sans" x="860.5" y="459.5" font-size="12.5" text-anchor="middle" fill="#1F2328">JavaScript</text>
         </g>
       </g>
       <g>
         <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6;0.6833;1" dur="6s" fill="freeze"/>
         <animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0;0 0" keyTimes="0;0.6;0.6833;1" dur="6s" fill="freeze"/>
         <g class="pill">
-          <rect class="pb" x="918" y="440" width="74" height="30" rx="15" fill="#0F172A" fill-opacity="0.04" stroke="#10B981" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-0s" repeatCount="indefinite"/></rect>
-          <text class="sans" x="955" y="459.5" font-size="12.5" text-anchor="middle" fill="#1E293B">Angular</text>
+          <rect class="pb" x="918" y="440" width="74" height="30" rx="15" fill="#1F2328" fill-opacity="0.04" stroke="#4D7C0F" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-0s" repeatCount="indefinite"/></rect>
+          <text class="sans" x="955" y="459.5" font-size="12.5" text-anchor="middle" fill="#1F2328">Angular</text>
         </g>
       </g>
       <g>
         <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6117;0.695;1" dur="6s" fill="freeze"/>
         <animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0;0 0" keyTimes="0;0.6117;0.695;1" dur="6s" fill="freeze"/>
         <g class="pill">
-          <rect class="pb" x="1002" y="440" width="60" height="30" rx="15" fill="#0F172A" fill-opacity="0.04" stroke="#2563EB" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-0.8s" repeatCount="indefinite"/></rect>
-          <text class="sans" x="1032" y="459.5" font-size="12.5" text-anchor="middle" fill="#1E293B">Figma</text>
+          <rect class="pb" x="1002" y="440" width="60" height="30" rx="15" fill="#1F2328" fill-opacity="0.04" stroke="#3F6212" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-0.8s" repeatCount="indefinite"/></rect>
+          <text class="sans" x="1032" y="459.5" font-size="12.5" text-anchor="middle" fill="#1F2328">Figma</text>
         </g>
       </g>
       <g>
         <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6233;0.7067;1" dur="6s" fill="freeze"/>
         <animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0;0 0" keyTimes="0;0.6233;0.7067;1" dur="6s" fill="freeze"/>
         <g class="pill">
-          <rect class="pb" x="524" y="478" width="81" height="30" rx="15" fill="#0F172A" fill-opacity="0.04" stroke="#06B6D4" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-1.6s" repeatCount="indefinite"/></rect>
-          <text class="sans" x="564.5" y="497.5" font-size="12.5" text-anchor="middle" fill="#1E293B">Firebase</text>
+          <rect class="pb" x="524" y="478" width="81" height="30" rx="15" fill="#1F2328" fill-opacity="0.04" stroke="#65A30D" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-1.6s" repeatCount="indefinite"/></rect>
+          <text class="sans" x="564.5" y="497.5" font-size="12.5" text-anchor="middle" fill="#1F2328">Firebase</text>
         </g>
       </g>
       <g>
         <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.635;0.7183;1" dur="6s" fill="freeze"/>
         <animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0;0 0" keyTimes="0;0.635;0.7183;1" dur="6s" fill="freeze"/>
         <g class="pill">
-          <rect class="pb" x="615" y="478" width="60" height="30" rx="15" fill="#0F172A" fill-opacity="0.04" stroke="#10B981" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-2.4s" repeatCount="indefinite"/></rect>
-          <text class="sans" x="645" y="497.5" font-size="12.5" text-anchor="middle" fill="#1E293B">MySQL</text>
+          <rect class="pb" x="615" y="478" width="60" height="30" rx="15" fill="#1F2328" fill-opacity="0.04" stroke="#4D7C0F" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-2.4s" repeatCount="indefinite"/></rect>
+          <text class="sans" x="645" y="497.5" font-size="12.5" text-anchor="middle" fill="#1F2328">MySQL</text>
         </g>
       </g>
       <g>
         <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6467;0.73;1" dur="6s" fill="freeze"/>
         <animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0;0 0" keyTimes="0;0.6467;0.73;1" dur="6s" fill="freeze"/>
         <g class="pill">
-          <rect class="pb" x="685" y="478" width="47" height="30" rx="15" fill="#0F172A" fill-opacity="0.04" stroke="#2563EB" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-3.2s" repeatCount="indefinite"/></rect>
-          <text class="sans" x="708.5" y="497.5" font-size="12.5" text-anchor="middle" fill="#1E293B">AWS</text>
+          <rect class="pb" x="685" y="478" width="47" height="30" rx="15" fill="#1F2328" fill-opacity="0.04" stroke="#3F6212" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-3.2s" repeatCount="indefinite"/></rect>
+          <text class="sans" x="708.5" y="497.5" font-size="12.5" text-anchor="middle" fill="#1F2328">AWS</text>
         </g>
       </g>
       <g>
         <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6583;0.7417;1" dur="6s" fill="freeze"/>
         <animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0;0 0" keyTimes="0;0.6583;0.7417;1" dur="6s" fill="freeze"/>
         <g class="pill">
-          <rect class="pb" x="742" y="478" width="47" height="30" rx="15" fill="#0F172A" fill-opacity="0.04" stroke="#06B6D4" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-0s" repeatCount="indefinite"/></rect>
-          <text class="sans" x="765.5" y="497.5" font-size="12.5" text-anchor="middle" fill="#1E293B">Git</text>
+          <rect class="pb" x="742" y="478" width="47" height="30" rx="15" fill="#1F2328" fill-opacity="0.04" stroke="#65A30D" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-0s" repeatCount="indefinite"/></rect>
+          <text class="sans" x="765.5" y="497.5" font-size="12.5" text-anchor="middle" fill="#1F2328">Git</text>
         </g>
       </g>
       <g>
         <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.67;0.7533;1" dur="6s" fill="freeze"/>
         <animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0;0 0" keyTimes="0;0.67;0.7533;1" dur="6s" fill="freeze"/>
         <g class="pill">
-          <rect class="pb" x="799" y="478" width="88" height="30" rx="15" fill="#0F172A" fill-opacity="0.04" stroke="#10B981" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-0.8s" repeatCount="indefinite"/></rect>
-          <text class="sans" x="843" y="497.5" font-size="12.5" text-anchor="middle" fill="#1E293B">Bootstrap</text>
+          <rect class="pb" x="799" y="478" width="88" height="30" rx="15" fill="#1F2328" fill-opacity="0.04" stroke="#4D7C0F" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-0.8s" repeatCount="indefinite"/></rect>
+          <text class="sans" x="843" y="497.5" font-size="12.5" text-anchor="middle" fill="#1F2328">Bootstrap</text>
         </g>
       </g>
       <g>
         <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6817;0.765;1" dur="6s" fill="freeze"/>
         <animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0;0 0" keyTimes="0;0.6817;0.765;1" dur="6s" fill="freeze"/>
         <g class="pill">
-          <rect class="pb" x="897" y="478" width="81" height="30" rx="15" fill="#0F172A" fill-opacity="0.04" stroke="#2563EB" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-1.6s" repeatCount="indefinite"/></rect>
-          <text class="sans" x="937.5" y="497.5" font-size="12.5" text-anchor="middle" fill="#1E293B">HTML/CSS</text>
+          <rect class="pb" x="897" y="478" width="81" height="30" rx="15" fill="#1F2328" fill-opacity="0.04" stroke="#3F6212" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-1.6s" repeatCount="indefinite"/></rect>
+          <text class="sans" x="937.5" y="497.5" font-size="12.5" text-anchor="middle" fill="#1F2328">HTML/CSS</text>
         </g>
       </g>
       <g>
         <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6933;0.7767;1" dur="6s" fill="freeze"/>
         <animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0;0 0" keyTimes="0;0.6933;0.7767;1" dur="6s" fill="freeze"/>
         <g class="pill">
-          <rect class="pb" x="988" y="478" width="88" height="30" rx="15" fill="#0F172A" fill-opacity="0.04" stroke="#06B6D4" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-2.4s" repeatCount="indefinite"/></rect>
-          <text class="sans" x="1032" y="497.5" font-size="12.5" text-anchor="middle" fill="#1E293B">WordPress</text>
+          <rect class="pb" x="988" y="478" width="88" height="30" rx="15" fill="#1F2328" fill-opacity="0.04" stroke="#65A30D" stroke-width="1" stroke-opacity="0.24"><animate attributeName="stroke-opacity" values="0.20;0.62;0.20" dur="4.5s" begin="-2.4s" repeatCount="indefinite"/></rect>
+          <text class="sans" x="1032" y="497.5" font-size="12.5" text-anchor="middle" fill="#1F2328">WordPress</text>
         </g>
       </g>
 
@@ -640,7 +640,7 @@
           <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6667;0.75;1" dur="6s" fill="freeze"/>
           <animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0;0 0" keyTimes="0;0.6667;0.75;1" dur="6s" fill="freeze"/>
           <g class="soc">
-            <circle class="sb" cx="542" cy="548" r="18" fill="#0F172A" fill-opacity="0.04" stroke="#0F172A" stroke-opacity="0.12" stroke-width="1"/>
+            <circle class="sb" cx="542" cy="548" r="18" fill="#1F2328" fill-opacity="0.04" stroke="#1F2328" stroke-opacity="0.12" stroke-width="1"/>
             <g transform="translate(533.36,539.36) scale(0.72)" filter="url(#glowSoft)"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" fill="url(#accent)"/></g>
           </g>
         </g>
@@ -648,7 +648,7 @@
           <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6867;0.77;1" dur="6s" fill="freeze"/>
           <animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0;0 0" keyTimes="0;0.6867;0.77;1" dur="6s" fill="freeze"/>
           <g class="soc">
-            <circle class="sb" cx="592" cy="548" r="18" fill="#0F172A" fill-opacity="0.04" stroke="#0F172A" stroke-opacity="0.12" stroke-width="1"/>
+            <circle class="sb" cx="592" cy="548" r="18" fill="#1F2328" fill-opacity="0.04" stroke="#1F2328" stroke-opacity="0.12" stroke-width="1"/>
             <g transform="translate(583.36,539.36) scale(0.72)" filter="url(#glowSoft)"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" fill="url(#accent)"/></g>
           </g>
         </g>
@@ -656,7 +656,7 @@
           <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.7067;0.79;1" dur="6s" fill="freeze"/>
           <animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0;0 0" keyTimes="0;0.7067;0.79;1" dur="6s" fill="freeze"/>
           <g class="soc">
-            <circle class="sb" cx="642" cy="548" r="18" fill="#0F172A" fill-opacity="0.04" stroke="#0F172A" stroke-opacity="0.12" stroke-width="1"/>
+            <circle class="sb" cx="642" cy="548" r="18" fill="#1F2328" fill-opacity="0.04" stroke="#1F2328" stroke-opacity="0.12" stroke-width="1"/>
             <g transform="translate(633.36,539.36) scale(0.72)" filter="url(#glowSoft)"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932zM17.61 20.644h2.039L6.486 3.24H4.298z" fill="url(#accent)"/></g>
           </g>
         </g>
@@ -664,7 +664,7 @@
           <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.7267;0.81;1" dur="6s" fill="freeze"/>
           <animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0;0 0" keyTimes="0;0.7267;0.81;1" dur="6s" fill="freeze"/>
           <g class="soc">
-            <circle class="sb" cx="692" cy="548" r="18" fill="#0F172A" fill-opacity="0.04" stroke="#0F172A" stroke-opacity="0.12" stroke-width="1"/>
+            <circle class="sb" cx="692" cy="548" r="18" fill="#1F2328" fill-opacity="0.04" stroke="#1F2328" stroke-opacity="0.12" stroke-width="1"/>
             <g transform="translate(692,548)" filter="url(#glowSoft)" fill="none" stroke="url(#accent)" stroke-width="1.5" stroke-linecap="round">
               <circle cx="0" cy="0" r="8.4"/><ellipse cx="0" cy="0" rx="3.6" ry="8.4"/><path d="M-8.1 -3 H8.1 M-8.1 3 H8.1"/>
             </g>
@@ -675,18 +675,18 @@
       <!-- availability badge -->
       <g>
         <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.733;0.833;1" dur="6s" fill="freeze"/>
-        <rect x="936" y="532" width="176" height="30" rx="15" fill="#10B981" fill-opacity="0.10" stroke="#10B981" stroke-opacity="0.42" stroke-width="1"/>
-        <circle cx="958" cy="547" r="4" fill="#10B981">
+        <rect x="936" y="532" width="176" height="30" rx="15" fill="#4D7C0F" fill-opacity="0.10" stroke="#4D7C0F" stroke-opacity="0.42" stroke-width="1"/>
+        <circle cx="958" cy="547" r="4" fill="#4D7C0F">
           <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
           <animate attributeName="r" values="4;5;4" dur="2s" repeatCount="indefinite"/>
         </circle>
-        <text class="mono" x="972" y="551" font-size="11" fill="#10B981" letter-spacing="0.6">Open to Internships</text>
+        <text class="mono" x="972" y="551" font-size="11" fill="#4D7C0F" letter-spacing="0.6">Open to Internships</text>
       </g>
     </g>
   </g>
 
   <!-- card border shimmer -->
-  <rect x="8.5" y="8.5" width="1163" height="593" rx="27.5" fill="none" stroke="#0F172A" stroke-opacity="0.08" stroke-width="1"/>
+  <rect x="8.5" y="8.5" width="1163" height="593" rx="27.5" fill="none" stroke="#1F2328" stroke-opacity="0.08" stroke-width="1"/>
   <rect x="8.5" y="8.5" width="1163" height="593" rx="27.5" fill="none" stroke="url(#shimmer)" stroke-width="1.6"/>
 
 </g>
