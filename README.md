@@ -10,10 +10,11 @@
 
 <br />
 
-<img src="https://img.shields.io/badge/Degree-Software%20Engineering-4D7C0F?style=flat-square&labelColor=0D1117&logo=graduation-cap&logoColor=A3E635" alt="Degree" />
-<img src="https://img.shields.io/badge/Specialization-Mobile%20Dev%20%26%20UI%2FUX-65A30D?style=flat-square&labelColor=0D1117&logo=flutter&logoColor=A3E635" alt="Specialization" />
-<img src="https://img.shields.io/badge/CGPA-3.89%20(Dip)%20%7C%203.20%20(Deg)-84CC16?style=flat-square&labelColor=0D1117&logo=academia&logoColor=A3E635" alt="CGPA" />
-<img src="https://img.shields.io/badge/Based%20in-Malaysia-365314?style=flat-square&labelColor=0D1117&logo=googlemaps&logoColor=A3E635" alt="Location" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iamraaaey/iamraaaey/main/meta-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iamraaaey/iamraaaey/main/meta-light.svg">
+  <img src="https://raw.githubusercontent.com/iamraaaey/iamraaaey/main/meta-dark.svg" width="100%" alt="Degree: Software Engineering · Specialization: Mobile Dev · UI/UX · CGPA: 3.89 Dip · 3.20 Deg · Location: Sarawak, Malaysia">
+</picture>
 
 <br /><br />
 
@@ -32,9 +33,9 @@
 
 <br /><br />
 
-<img src="https://komarev.com/ghpvc/?username=iamraaaey&label=Profile%20Views&color=84CC16&style=flat-square" alt="Profile Views" />
-<img src="https://img.shields.io/github/followers/iamraaaey?label=Followers&style=flat-square&color=84CC16&labelColor=0D1117&logo=github&logoColor=A3E635" alt="Followers" />
-<img src="https://img.shields.io/github/stars/iamraaaey?label=Stars&style=flat-square&color=84CC16&labelColor=0D1117&logo=starship&logoColor=A3E635" alt="Stars" />
+<img src="https://visitor-badge.laobi.icu/badge?page_id=iamraaaey.iamraaaey&left_color=%230D1117&right_color=%23161B22&left_text=VIEWS" alt="Profile Views" />
+<img src="https://img.shields.io/github/followers/iamraaaey?label=FOLLOWERS&style=flat-square&color=161B22&labelColor=0D1117&logo=github&logoColor=A3E635" alt="Followers" />
+<img src="https://img.shields.io/github/stars/iamraaaey?label=STARS&style=flat-square&color=161B22&labelColor=0D1117&logo=github&logoColor=A3E635" alt="Stars" />
 
 </div>
 

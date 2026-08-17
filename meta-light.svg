@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 64" width="1180" height="64" role="img" aria-label="Degree: Software Engineering. Specialization: Mobile Dev and UI/UX. CGPA 3.89 diploma, 3.20 degree. Location: Sarawak, Malaysia.">
+<title>Raynold Kabai · credentials</title>
+<defs>
+  <linearGradient id="chipBg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6F8FA"/><stop offset="1" stop-color="#EDF1F4"/></linearGradient>
+  <linearGradient id="dotGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#65A30D"/><stop offset="1" stop-color="#3F6212"/></linearGradient>
+  <linearGradient id="shim" gradientUnits="userSpaceOnUse" x1="-380" y1="0" x2="0" y2="64">
+    <stop offset="0" stop-color="#65A30D" stop-opacity="0"/><stop offset="0.5" stop-color="#65A30D" stop-opacity="0.55"/><stop offset="1" stop-color="#65A30D" stop-opacity="0"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="0 0; 1900 0" dur="6s" repeatCount="indefinite"/>
+  </linearGradient>
+  <filter id="dotGlow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+  .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+  .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif; }
+</style>
+<g>
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.05;0.1833;1" dur="3s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="0 7;0 7;0 0;0 0" keyTimes="0;0.05;0.1833;1" dur="3s" fill="freeze"/>
+  <rect x="84" y="14" width="238" height="36" rx="11" fill="url(#chipBg)"/>
+  <rect x="84.5" y="14.5" width="237" height="35" rx="10.5" fill="none" stroke="#1F2328" stroke-opacity="0.10" stroke-width="1"/>
+  <rect x="84.5" y="14.5" width="237" height="35" rx="10.5" fill="none" stroke="url(#shim)" stroke-width="1.2"/>
+  <circle cx="102" cy="32" r="3.4" fill="url(#dotGrad)" filter="url(#dotGlow)" opacity="0.30"><animate attributeName="opacity" values="0.30;1;0.30" dur="3.2s" begin="-0s" repeatCount="indefinite"/></circle>
+  <text class="mono" x="114" y="36.2" font-size="9.5" letter-spacing="1.35" fill="#57606A">DEGREE</text>
+  <rect x="163" y="25" width="1" height="14" fill="#1F2328" fill-opacity="0.14"/>
+  <text class="sans" x="168" y="36.2" font-size="12.5" font-weight="500" fill="#1F2328">Software Engineering</text>
+</g>
+<g>
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.0933;0.2267;1" dur="3s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="0 7;0 7;0 0;0 0" keyTimes="0;0.0933;0.2267;1" dur="3s" fill="freeze"/>
+  <rect x="336" y="14" width="282" height="36" rx="11" fill="url(#chipBg)"/>
+  <rect x="336.5" y="14.5" width="281" height="35" rx="10.5" fill="none" stroke="#1F2328" stroke-opacity="0.10" stroke-width="1"/>
+  <rect x="336.5" y="14.5" width="281" height="35" rx="10.5" fill="none" stroke="url(#shim)" stroke-width="1.2"/>
+  <circle cx="354" cy="32" r="3.4" fill="url(#dotGrad)" filter="url(#dotGlow)" opacity="0.30"><animate attributeName="opacity" values="0.30;1;0.30" dur="3.2s" begin="-0.7s" repeatCount="indefinite"/></circle>
+  <text class="mono" x="366" y="36.2" font-size="9.5" letter-spacing="1.35" fill="#57606A">SPECIALIZATION</text>
+  <rect x="473" y="25" width="1" height="14" fill="#1F2328" fill-opacity="0.14"/>
+  <text class="sans" x="478" y="36.2" font-size="12.5" font-weight="500" fill="#1F2328">Mobile Dev · UI/UX</text>
+</g>
+<g>
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.1367;0.27;1" dur="3s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="0 7;0 7;0 0;0 0" keyTimes="0;0.1367;0.27;1" dur="3s" fill="freeze"/>
+  <rect x="632" y="14" width="217" height="36" rx="11" fill="url(#chipBg)"/>
+  <rect x="632.5" y="14.5" width="216" height="35" rx="10.5" fill="none" stroke="#1F2328" stroke-opacity="0.10" stroke-width="1"/>
+  <rect x="632.5" y="14.5" width="216" height="35" rx="10.5" fill="none" stroke="url(#shim)" stroke-width="1.2"/>
+  <circle cx="650" cy="32" r="3.4" fill="url(#dotGrad)" filter="url(#dotGlow)" opacity="0.30"><animate attributeName="opacity" values="0.30;1;0.30" dur="3.2s" begin="-1.4s" repeatCount="indefinite"/></circle>
+  <text class="mono" x="662" y="36.2" font-size="9.5" letter-spacing="1.35" fill="#57606A">CGPA</text>
+  <rect x="696" y="25" width="1" height="14" fill="#1F2328" fill-opacity="0.14"/>
+  <text class="sans" x="702" y="36.2" font-size="12.5" font-weight="500" fill="#1F2328">3.89 Dip · 3.20 Deg</text>
+</g>
+<g>
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.18;0.3133;1" dur="3s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" values="0 7;0 7;0 0;0 0" keyTimes="0;0.18;0.3133;1" dur="3s" fill="freeze"/>
+  <rect x="863" y="14" width="232" height="36" rx="11" fill="url(#chipBg)"/>
+  <rect x="863.5" y="14.5" width="231" height="35" rx="10.5" fill="none" stroke="#1F2328" stroke-opacity="0.10" stroke-width="1"/>
+  <rect x="863.5" y="14.5" width="231" height="35" rx="10.5" fill="none" stroke="url(#shim)" stroke-width="1.2"/>
+  <circle cx="881" cy="32" r="3.4" fill="url(#dotGrad)" filter="url(#dotGlow)" opacity="0.30"><animate attributeName="opacity" values="0.30;1;0.30" dur="3.2s" begin="-2.1s" repeatCount="indefinite"/></circle>
+  <text class="mono" x="893" y="36.2" font-size="9.5" letter-spacing="1.35" fill="#57606A">LOCATION</text>
+  <rect x="956" y="25" width="1" height="14" fill="#1F2328" fill-opacity="0.14"/>
+  <text class="sans" x="962" y="36.2" font-size="12.5" font-weight="500" fill="#1F2328">Sarawak, Malaysia</text>
+</g>
+</svg>
