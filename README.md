@@ -1,10 +1,16 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=40&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hi+there,+I'm+raaaey+%F0%9F%91%8B;Software+Developer;Open+Source+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=40&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Hi+there,+I'm+Raynold+Kabai+%F0%9F%91%8B;Software+Engineer;UI%2FUX+Designer" alt="Typing SVG" />
 </div>
 
 <p align="center">
   <!-- A cool animated GIF for the aesthetic -->
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="300" alt="Animated coding gif">
+</p>
+
+<p align="center">
+  <a href="https://raynoldkabai.my/" target="_blank">
+    <img src="https://img.shields.io/badge/Visit_My_Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
 </p>
 
 ---
@@ -26,9 +32,9 @@
 ### 🛠️ My Arsenal
 
 <div align="center">
-  <!-- Aesthetic and dynamic skill icons -->
+  <!-- Aesthetic and dynamic skill icons. Included UI/UX tools like Figma! -->
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,python,html,css,tailwind,git,github,vscode&perline=6" alt="Tech Stack" />
+    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,python,figma,html,css,tailwind,git,github,vscode&perline=7" alt="Tech Stack" />
   </a>
 </div>
 
@@ -50,6 +56,9 @@
 ### 📫 Connect with Me
 
 <div align="center">
+  <a href="https://raynoldkabai.my/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=web&logoColor=white" alt="Portfolio" />
+  </a>
   <a href="https://twitter.com/iamraaaey" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
   </a>
